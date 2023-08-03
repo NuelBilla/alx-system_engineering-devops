@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo (chmod 000 hello) (chmod o+rwx hello)
+(sudo chmod 000 hello) (sudo chmod o+rwx hello)
