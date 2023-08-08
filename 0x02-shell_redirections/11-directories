@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -type d | wc --files
+find . -type d -noot -name '.' | wc -l
